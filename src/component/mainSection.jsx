@@ -46,7 +46,7 @@ export default function mainSection(props) {
             <span><i class="fa-solid fa-laptop"></i> Window, Linux & Mac</span>
         </div>
 
-        <h1 className="text-start text-5xl font-bold text-zinc-800 w-[350px]">Web app to Desktop app in minutes</h1>
+        <h1 className="text-start text-5xl font-bold text-zinc-800 w-[360px]">Web app to Desktop app in minutes</h1>
         
         <p className="text-start w-[325px]">Take your web app codebase and transform it into a cross platform desktop app with native functionality.</p>
 
