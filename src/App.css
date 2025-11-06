@@ -85,7 +85,7 @@
 
 #version-box-mobile {
     margin-top: 50px;
-    margin-left: calc(-25px);
+    margin-left: calc(-60px);
     padding: 5px 12px;
 }
 
@@ -98,4 +98,15 @@
     transform: translateX(3px);
     transition: all 0.3s ease-in-out;
 }
+
+#hero-sect-mobile-btn button:nth-child(1) {
+    background-color: var(--primary-text-color)!important;
+    color: white;
+    padding: 13px 20px;
+}
+
+#hero-sect-mobile-btn button:nth-child(2) {
+    padding: 13px 20px;
+}
+
 
