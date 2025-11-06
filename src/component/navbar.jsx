@@ -3,12 +3,8 @@ import { NavLink } from "react-router";
 function navbar(props) {
   const toggleMenu = () => {
     document.querySelector("#toggle-navbar").classList.toggle("hidden");
-    console.log("clicked");
   };
 
-//   const toggleMenuClose = () => {
-//     document.querySelector("#toggle-navbar").classList.toggle("hidden");
-//   };
   return (
     <div id="navbar-menu" className="flex justify-between items-center">
       <div id="navbar-logo">
@@ -23,7 +19,7 @@ function navbar(props) {
       </div>
 
       <div id="service-menu">
-        <nav className="hidden md:flex gap-10"> 
+        <nav className="hidden lg:flex gap-10"> 
           <NavLink id="nav-menulist" className="text-lg">Pricing</NavLink>
           <NavLink id="nav-menulist" className="text-lg">Docs</NavLink>
           <NavLink id="nav-menulist" className="text-lg">Changelog</NavLink>
@@ -34,7 +30,7 @@ function navbar(props) {
 
       <div
         id="developer-toggle-button"
-        className="hidden md:flex items-center gap-2 border border-gray-300 rounded-lg px-6 py-2 hover:border-gray-700 "
+        className="hidden lg:flex items-center gap-2 border border-gray-300 rounded-lg px-6 py-2 hover:border-gray-700 "
       >
         <img src={props.developerToggle} />
         <p className="text-lg">
@@ -42,12 +38,12 @@ function navbar(props) {
         </p>
       </div>
 
-      <div id="menu-bar" onClick={toggleMenu} className="md:hidden flex items-center text-2xl">
+      <div id="menu-bar" onClick={toggleMenu} className="lg:hidden flex items-center text-2xl">
         <i className="fa-solid fa-bars"></i>
       </div>
 
       {/* Toggle Navbar  */}
-      <div id="toggle-navbar" className="fixed bg-white inset-0 md:hidden ">
+      <div id="toggle-navbar" className="hidden fixed bg-white inset-0 lg:hidden ">
         <div id="navbar-menu" className="flex justify-between">
           <div id="navbar-logo">
             <a href="#" className="flex items-center gap-2">
@@ -55,7 +51,7 @@ function navbar(props) {
                 <span className="text-lg font-medium">ToDesktop</span>
             </a>
           </div>
-          <div id="menu-bar" onClick={toggleMenu} className="md:hidden flex items-center text-2xl"><i className="fa-solid fa-xmark"></i></div>
+          <div id="menu-bar" onClick={toggleMenu} className="lg:hidden flex items-center text-2xl"><i className="fa-solid fa-xmark"></i></div>
         </div>
         
         <div id="toggle-menubar">
@@ -68,7 +64,7 @@ function navbar(props) {
             </nav>
         </div>
 
-        <div id="toggle-menu-button" className="md:hidden flex justify-center items-center gap-2 border border-gray-500 rounded-lg max-w-60">
+        <div id="toggle-menu-button" className="lg:hidden flex justify-center items-center gap-2 border border-gray-500 rounded-lg max-w-60">
         <img src={props.developerToggle} />
         <p className="text-lg">Electron Developers</p>
       </div>
