@@ -20,11 +20,11 @@ function navbar(props) {
 
       <div id="service-menu">
         <nav className="hidden lg:flex gap-10"> 
-          <NavLink id="nav-menulist" className="text-lg">Pricing</NavLink>
-          <NavLink id="nav-menulist" className="text-lg">Docs</NavLink>
-          <NavLink id="nav-menulist" className="text-lg">Changelog</NavLink>
-          <NavLink id="nav-menulist" className="text-lg">Blog</NavLink>
-          <NavLink id="nav-menulist" className="text-lg">Login</NavLink>
+          <NavLink to="/pricing" id="nav-menulist" className="text-lg">Pricing</NavLink>
+          <NavLink to="/docs" id="nav-menulist" className="text-lg">Docs</NavLink>
+          <NavLink to="/changelog" id="nav-menulist" className="text-lg">Changelog</NavLink>
+          <NavLink to="/blog" id="nav-menulist" className="text-lg">Blog</NavLink>
+          <NavLink to="/login" id="nav-menulist" className="text-lg">Login</NavLink>
         </nav>
       </div>
 
