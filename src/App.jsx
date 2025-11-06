@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./component/navbar";
 import navbarLogo from './assets/asset\ 0.png'
 import developerToggle from './assets/asset\ 1.svg'
+import turnArrowDown from './assets/asset\ 2.svg'
 import { Routes, Route } from "react-router";
 import Pricing from "./component/pricingPage";
 import Login from "./component/loginPage";
@@ -24,8 +25,8 @@ function App() {
           </Route>
         </Routes>
       </header>
-      <main>
-        <MainSection/>
+      <main className="bg-pink-50 h-[90.65vh]">
+        <MainSection turnArrowDown={turnArrowDown} />
       </main>
     </>
   );
