@@ -82,3 +82,20 @@
 #app-section img{
     margin-top: 10px;
 }
+
+#version-box-mobile {
+    margin-top: 50px;
+    margin-left: calc(-25px);
+    padding: 5px 12px;
+}
+
+#version-box-mobile:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.1);
+}
+
+#version-box-mobile:hover i {
+    transform: translateX(3px);
+    transition: all 0.3s ease-in-out;
+}
+
