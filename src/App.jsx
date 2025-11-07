@@ -25,7 +25,7 @@ function App() {
           </Route>
         </Routes>
       </header>
-      <main className="bg-pink-50 h-[90.65vh]">
+      <main className="min-h-screen bg-pink-100">
         <MainSection turnArrowDown={turnArrowDown} />
       </main>
     </>
