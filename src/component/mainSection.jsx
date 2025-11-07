@@ -21,7 +21,7 @@ export default function mainSection(props) {
         </div>
 
         
-        <p className="sm:text-center text-xl md:text-2xl">Take your web app codebase and transform it into a cross platform desktop app with native functionality.</p>
+        <p className="sm:text-center text-lg md:text-2xl">Take your web app codebase and transform it into a cross platform desktop app with native functionality.</p>
 
         <div id="hero-sect-btn" className="flex gap-5 flex-col sm:flex-row font-medium w-[360px] text-xl">
             <button className="rounded-lg">Download now</button>
