@@ -16,7 +16,7 @@ export default function mainSection(props) {
             <span><i class="fa-solid fa-laptop"></i> Window, Linux & Mac</span>
         </div>
 
-        <div id="heading-hero-sect" className="sm:text-center text-4xl font-bold text-zinc-800 md:text-7xl md:text-center">
+        <div id="heading-hero-sect" className="sm:text-center text-5xl font-bold text-zinc-800 md:text-7xl md:text-center">
         <h1>Web app to Desktop app in minutes</h1>
         </div>
 
