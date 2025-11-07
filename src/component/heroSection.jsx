@@ -1,7 +1,7 @@
 export default function mainSection(props) {
   return (
     <>
-        <div id="hero-section" className="flex flex-col items-center gap-8">
+    <div id="hero-section" className="flex flex-col items-center gap-8">
         <div id="version-box" className="flex items-center gap-2 border border-amber-500 rounded-lg bg-orange-50 font-medium w-fit shadow-md 
         hover:shadow-lg hover:-translate-y-2 transition-all duration-300 ease-in-out group">
            <span className="inline-block w-3 h-3 border border-black rounded-full bg-amber-400"></span>
@@ -11,9 +11,9 @@ export default function mainSection(props) {
         </div>
 
         <div id="service-box" className="hidden md:flex gap-5 text-gray-600">
-            <span><i class="fa-regular fa-file-code"></i> Code Optional</span>
-            <span><i class="fa-solid fa-hand-back-fist"></i> Drag & drop builder</span>
-            <span><i class="fa-solid fa-laptop"></i> Window, Linux & Mac</span>
+            <span><i className="fa-regular fa-file-code"></i> Code Optional</span>
+            <span><i className="fa-solid fa-hand-back-fist"></i> Drag & drop builder</span>
+            <span><i className="fa-solid fa-laptop"></i> Window, Linux & Mac</span>
         </div>
 
         <div id="heading-hero-sect" className="sm:text-center text-5xl font-bold leading-snug text-zinc-800 md:text-7xl md:text-center md:w-full">
@@ -27,7 +27,7 @@ export default function mainSection(props) {
         
 
         <div id="hero-sect-btn" className="flex gap-5 flex-col sm:flex-row font-medium w-[360px] text-xl">
-            <button className="rounded-lg">Download now</button>
+            <button className="rounded-lg hover:bg-opacity-100 ">Download now</button>
             <button className="border border-gray-500 rounded-lg">Read more</button>
         </div>
 

@@ -9,7 +9,8 @@ import Login from "./component/loginPage";
 import Blog from "./component/blogPage";
 import Changelog from "./component/changelogPage";
 import Docs from "./component/docsPage";
-import MainSection from "./component/mainSection"; 
+import HeroSection from "./component/heroSection"; 
+import CompaniesFeature from "./component/companiesFeature";
 
 function App() {
   return (
@@ -25,8 +26,9 @@ function App() {
           </Route>
         </Routes>
       </header>
-      <main className="min-h-screen bg-pink-100">
-        <MainSection turnArrowDown={turnArrowDown} />
+      <main className="min-h-screen bg-gradient-to-b from-blue-300 to-orange-50 ">
+        <HeroSection turnArrowDown={turnArrowDown} />
+        <CompaniesFeature />
       </main>
     </>
   );
