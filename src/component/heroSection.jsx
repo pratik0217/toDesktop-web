@@ -30,12 +30,6 @@ export default function mainSection(props) {
             <button className="rounded-lg hover:bg-opacity-100 ">Download now</button>
             <button className="border border-gray-500 rounded-lg">Read more</button>
         </div>
-
-        <div id="app-section" className="flex gap-5">
-            <img src={props.turnArrowDown} alt="turn arrow down" />
-            <span>APPS POWERED BY TODESKTOP</span>
-            <img src={props.turnArrowDown} alt="turn arrow down" />
-        </div>
     </div>
     </>
   )

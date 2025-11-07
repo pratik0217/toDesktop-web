@@ -11,6 +11,7 @@ import Changelog from "./component/changelogPage";
 import Docs from "./component/docsPage";
 import HeroSection from "./component/heroSection"; 
 import CompaniesFeature from "./component/companiesFeature";
+import companyLogo1 from "./assets/asset\ 3.png";
 
 function App() {
   return (
@@ -26,9 +27,9 @@ function App() {
           </Route>
         </Routes>
       </header>
-      <main className="min-h-screen bg-gradient-to-b from-blue-300 to-orange-50 ">
-        <HeroSection turnArrowDown={turnArrowDown} />
-        <CompaniesFeature />
+      <main className="min-h-screen bg-gradient-to-b from-blue-300 to-orange-50">
+        <HeroSection />
+        <CompaniesFeature turnArrowDown={turnArrowDown} companyLogo1={companyLogo1} />
       </main>
     </>
   );
