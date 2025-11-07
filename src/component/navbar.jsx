@@ -7,7 +7,7 @@ function navbar(props) {
 
   return (
     <div id="navbar-menu" className="flex justify-between items-center">
-      <div id="navbar-logo">
+      <div id="navbar-logo" className="flex flex-1">
         <a href="#" className="flex items-center gap-2">
           <img
             className="object-cover max-w-11 max-h-12"
@@ -28,14 +28,13 @@ function navbar(props) {
         </nav>
       </div>
 
-      <div
-        id="developer-toggle-button"
-        className="hidden lg:flex items-center gap-2 border border-gray-300 rounded-lg px-6 py-2 hover:border-gray-700 "
-      >
+      <div id="developer-btn" className="hidden lg:flex flex-1 justify-end">
+        <div id="developer-toggle-button" className="flex items-center gap-2 border border-gray-300 rounded-lg px-6 py-2 hover:border-gray-700">
         <img src={props.developerToggle} />
         <p className="text-lg">
           Electron Developers <i className="fa-solid fa-arrow-right"></i>
         </p>
+      </div>
       </div>
 
       <div id="menu-bar" onClick={toggleMenu} className="lg:hidden flex items-center text-2xl">
@@ -45,7 +44,7 @@ function navbar(props) {
       {/* Toggle Navbar  */}
       <div id="toggle-navbar" className="hidden fixed bg-white inset-0 lg:hidden ">
         <div id="navbar-menu" className="flex justify-between">
-          <div id="navbar-logo">
+          <div id="navbar-logo" className="flex flex-1">
             <a href="#" className="flex items-center gap-2">
                 <img className="object-cover max-w-11 max-h-12" src={props.navbarLogo} alt="Navbar Logo"/>
                 <span className="text-lg font-medium">ToDesktop</span>
